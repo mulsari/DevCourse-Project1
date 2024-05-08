@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  .navbar {
+    background-color: #333;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-bottom: 20px;
+  }
+  .nav-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  .nav-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding-top: 20px;
+  }
+  
+  section {
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* 파란 배경색 */
+    color: #fff; /* 흰색 텍스트 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.home h1, .home h2 {
+    font-size: 3em; /* 큰 제목 글씨 크기 */
+    margin-bottom: 20px; /* 제목 아래 여백 */
+}
+
+.home p {
+    font-size: 1.5em; /* 일반 텍스트 글씨 크기 */
+}
